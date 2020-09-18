@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin : 0;
+}
+
+/* HEADER RELATED STYLING */
+
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px black;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  margin-left: 25px;
+}
+
+.logo-container span {
+  padding-left: 10px;
+  color: rgb(97, 217, 196);
+}
+
+header nav {
+  margin-right: 40px;
+}
+
+header span {
+  font-weight: bold;
+  font-family: "tahoma";
+  font-size: 16px;
+}
+
+header a{
+  color: black;
+  padding-left: 20px;
+}
