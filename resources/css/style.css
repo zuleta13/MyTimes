@@ -13,6 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: solid 1px black;
+  z-index: 4;
 }
 
 .logo-container {
@@ -40,4 +41,32 @@ header span {
 header a{
   color: black;
   padding-left: 20px;
+}
+
+/* MAIN CONTAINER STYLING */
+
+main,
+footer {
+  position: relative;
+  top: 80.8px;
+}
+
+main {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 1300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.large-column {
+  width: 600px;
+}
+
+.mid-column {
+  width: 300px;
+}
+
+.small-column {
+  width: 260px;
 }
