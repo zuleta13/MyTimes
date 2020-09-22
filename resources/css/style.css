@@ -59,8 +59,19 @@ main {
   justify-content: space-around;
 }
 
+main p{
+  font-family: georgia;
+  font-size: 17px;
+}
+
+main h2 {
+  font-family: georgia;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .large-column {
-  width: 600px;
+  width: 630px;
 }
 
 .mid-column {
@@ -68,5 +79,52 @@ main {
 }
 
 .small-column {
-  width: 260px;
+  width: 240px;
+}
+
+/* SECTIONS INSIDE LARGE COLUMN */
+
+.large-column section {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-article,
+.img-heading {
+  width: 300px;
+}
+
+.img-heading {
+  height: 300px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.supporting {
+  background-image: url(../media/img-story-main.PNG);
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.supporting h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.earth-spins {
+  background-image: url(../media/img-story-2.PNG);
+}
+
+.erase-memory {
+  background-image: url(../media/img-story-3.PNG);
+}
+
+article p {
+  padding-top: 15px;
 }
