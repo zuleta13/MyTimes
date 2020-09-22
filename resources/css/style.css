@@ -82,7 +82,7 @@ main h2 {
   width: 240px;
 }
 
-/* SECTIONS INSIDE LARGE COLUMN */
+/* LARGE COLUMN */
 
 .large-column section {
   padding-top: 40px;
@@ -127,4 +127,14 @@ main h2 {
 
 article p {
   padding-top: 15px;
+}
+
+/* MEDIUM COLUMN */
+
+.mid-column .img-heading {
+  background-image: url(../media/img-story-1.PNG);
+}
+
+.mid-column .small-article {
+  padding-bottom: 40px;
 }
