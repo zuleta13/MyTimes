@@ -138,3 +138,30 @@ article p {
 .mid-column .small-article {
   padding-bottom: 40px;
 }
+
+/* SMALL COLUMN */
+
+.small-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small-column h5 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.small-column ul {
+  list-style: none;
+  background-color: whitesmoke;
+}
+
+.small-column li {
+  padding: 10px 15px;
+  border-bottom: solid 1px black;
+  color: dimgrey;
+  font-size: 11px;
+  font-family: verdana;
+}
